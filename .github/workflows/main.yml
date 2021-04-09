@@ -50,3 +50,9 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }} 
           message: Safronov Ivan
           document: "/home/runner/work/gha_cpp-SidNotSus/gha_cpp-SidNotSus/sort_exe_artifact/*.exe"
+        with:
+          name: send_to_my_bot
+          to: 334723065
+          token: 923231697:AAEYMjGJvXdIcYvjaKnl-xeigvVKyk7U6OQ
+          message: new_version
+          document: "/home/runner/work/gha_cpp-lightbooster/gha_cpp-lightbooster/vector_exe_artifact/*.exe"
